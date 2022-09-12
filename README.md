@@ -31,15 +31,16 @@ Podendo analisar com precisão relatórios, fichas descritivas etc.
 #### Procedures
 
 ```bash
-  	exec brh.insere_projeto
-  	exec brh.define_atribuicao
+  exec brh.insere_projeto
+  exec brh.define_atribuicao
 ```
 
 #### Funções
 ```bash
-	exec brh.calcula_idade
-	exec brh.finaliza_projeto
+  exec brh.calcula_idade
+  exec brh.finaliza_projeto
 ```
+### OBS: Essa branch é relacionada a semana1, este texto não se encontra no main (branch principal).
 
 
 
