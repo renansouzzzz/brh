@@ -40,7 +40,6 @@ Podendo analisar com precisão relatórios, fichas descritivas etc.
   exec brh.calcula_idade
   exec brh.finaliza_projeto
 ```
-### OBS: Essa branch é relacionada a semana1, este texto não se encontra no main (branch principal).
 
 
 
