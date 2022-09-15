@@ -31,15 +31,25 @@ Podendo analisar com precisão relatórios, fichas descritivas etc.
 #### Procedures
 
 ```bash
-  exec brh.insere_projeto
-  exec brh.define_atribuicao
+exec brh.insere_projeto
+exec brh.define_atribuicao
 ```
 
 #### Funções
 ```bash
-  exec brh.calcula_idade
-  exec brh.finaliza_projeto
+exec brh.calcula_idade
+exec brh.finaliza_projeto
 ```
 
 
 
+
+## Instalação Oracle XE 21c via Docker
+
+#### Instale Oracle XE 21c utilizando Docker:
+ 
+```bash
+  npm install -g docker
+
+  docker run -d --name oracle -p 1522:1521 -e ORACLE_PASSWORD='password' gvenzl/oracle-xe
+```
